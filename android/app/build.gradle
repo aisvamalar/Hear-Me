@@ -1,0 +1,44 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin"
+    id "com.google.gms.google-services"
+}
+
+android {
+    namespace = "com.example.hearme"
+    compileSdk = 34  // Update to latest
+    ndkVersion = flutter.ndkVersion
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_11  // Update from VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_11  // Update from VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = "11"  // Update from VERSION_1_8
+    }
+
+    defaultConfig {
+        applicationId = "com.example.hearme"
+        minSdk = 23
+        targetSdk = 34  // Update to latest
+        versionCode = flutter.versionCode
+        versionName = flutter.versionName
+    }
+
+    buildTypes {
+        release {
+            signingConfig = signingConfigs.debug
+        }
+    }
+}
+
+flutter {
+    source = "../.."
+}
+
+dependencies {
+    // Remove the manual Google Play Services dependencies you added
+    // Flutter will handle these automatically
+}

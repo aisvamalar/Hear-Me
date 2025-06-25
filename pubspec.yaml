@@ -1,0 +1,62 @@
+name: music_recommender
+description: A beautiful music recommendation app with Firebase integration.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_painter_v2: ^2.1.0+1
+
+  animated_text_kit: ^4.2.2
+  # Firebase Core - Update to latest
+  firebase_core: ^3.6.0
+
+  # Firebase Auth - Update to latest
+  firebase_auth: ^5.3.1
+
+  # Cloud Firestore - Update to latest
+  cloud_firestore: ^5.4.4
+
+  # Google Sign In - Update to latest
+  google_sign_in: ^6.2.1
+
+  # Other dependencies (keep your existing versions)
+
+  connectivity_plus: ^6.0.5
+
+  logger: ^2.0.2+1
+  http: ^1.1.0
+  url_launcher: ^6.3.1
+  provider: ^6.1.1
+  google_fonts: ^6.1.0
+  lottie: ^2.7.0
+  shared_preferences: ^2.2.2
+  flutter_staggered_animations: ^1.1.1
+  cached_network_image: ^3.4.1
+  shimmer: ^3.0.0
+
+  just_audio: ^0.9.46
+  audio_video_progress_bar: ^2.0.3
+  intl: ^0.18.1
+  sqflite: ^2.3.0
+  path: ^1.8.3
+
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/animations/
+    - assets/images/

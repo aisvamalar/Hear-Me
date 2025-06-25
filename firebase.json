@@ -1,0 +1,19 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "hearme-12944",
+          "appId": "1:755202607632:android:a9634b7bed5b9275f29895",
+          "fileOutput": "android/app/google-services.json"
+        }
+      }
+    }
+  },
+  "firestore": {
+    "database": "(default)",
+    "location": "asia-south1",
+    "rules": "firestore.rules",
+    "indexes": "firestore.rules.json"
+  }
+}

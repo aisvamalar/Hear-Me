@@ -245,24 +245,6 @@ numpy==1.24.3
 - [ ] **Dark Mode** - Theme customization
 - [ ] **Web Version** - Browser-based access
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👨‍💻 Author
-
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- Email: your.email@example.com
-
-## 🙏 Acknowledgments
-
-- **Flutter Team** - Amazing cross-platform framework
-- **Firebase** - Backend-as-a-Service platform
-- **Musixmatch** - Music metadata and links
-- **Scikit-learn** - Machine learning algorithms
-- **Open Source Community** - Inspiration and support
 
 ## 📊 Project Stats
 
